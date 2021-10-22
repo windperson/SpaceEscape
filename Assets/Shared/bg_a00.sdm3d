@@ -1,0 +1,27 @@
+!Model
+Id: 82206282-3d60-4cfa-8b96-258606d87fd5
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/model/BG/scene/bg_a00.FBX
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    da38aa95498e7a4190aec48af0bdd18a:
+        Name: BG_Lane_01a
+        MaterialInstance:
+            Material: 91d25aa4-214d-42b2-b709-f445f62d746f:BG_Lane_01a
+    0633d8ec081a59468ad7b9ac3e349749:
+        Name: BG_wall00
+        MaterialInstance:
+            Material: 70349aa8-6dd2-4240-a66a-f9ecf86852bb:BG_wall00_1
+    b6e7e6161c158b4eb5f19ad9fb7f7587:
+        Name: BG_wall01
+        MaterialInstance:
+            Material: e556eaa4-365c-4ac4-99f2-4f131bc2a228:BG_wall01_1
+    7f84ea5087027f46b1862b9898853fd8:
+        Name: BG_wall02
+        MaterialInstance:
+            Material: 842e313a-9b8b-48ab-aad1-93a50ce64d2d:BG_wall02_1
+Modifiers: {}
+~SourceHashes:
+    328d20d1b878aeedae4b111686d9401f~../../Resources/model/BG/scene/bg_a00.FBX: e9ca47b18ea489faca150137234be748

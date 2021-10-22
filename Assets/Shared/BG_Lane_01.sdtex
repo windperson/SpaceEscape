@@ -1,0 +1,8 @@
+!Texture
+Id: 9661d09c-6bb0-48ff-b217-80e83e6d49a3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/model/BG/sourceimages/BG_Lane_01.jpg
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+    PremultiplyAlpha: false

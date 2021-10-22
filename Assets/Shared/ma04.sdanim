@@ -1,0 +1,19 @@
+!Animation
+Id: 810ee119-438b-4035-a5ae-e5a246712245
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/model/character/scene/ma04.FBX
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: PlayOnce
+Type: !StandardAnimationAssetType {}
+Skeleton: 867d492e-40fa-4048-9b3c-649a615da888:character_00 Skeleton
+RootMotion: false
+PreviewModel: cd00e35a-fa21-4407-90ae-8d61b873802f:character_00
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:02.0000000
+~SourceHashes:
+    69ab9991bf8f10b01d25c0957fd77771~../../Resources/model/character/scene/ma04.FBX: e08d51a3ac4244eb7084d9ea80f92149

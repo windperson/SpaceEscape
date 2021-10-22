@@ -1,0 +1,8 @@
+!SpriteFont
+Id: b4c08099-a131-4317-951e-8f3be1ef6829
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !SystemFontProvider
+    FontName: Arial
+    Style: Regular
+FontType: !RuntimeRasterizedSpriteFontType {}

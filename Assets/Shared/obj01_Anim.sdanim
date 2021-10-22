@@ -1,0 +1,19 @@
+!Animation
+Id: 67ba5bc8-8fdc-48d8-8e48-c7a9771b1b11
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/model/BG/scene/obj01.FBX
+ClipDuration:
+    Enabled: false
+    StartAnimationTime: 0:00:00:00.0000000
+    EndAnimationTime: 0:00:30:00.0000000
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+RepeatMode: LoopInfinite
+Type: !StandardAnimationAssetType {}
+Skeleton: 0960359f-243f-4f5e-a678-b711befe6acf:obj01 Skeleton
+RootMotion: false
+PreviewModel: 8b051f25-c3b4-46d3-9b4f-5c2d3ff979e6:obj01
+AnimationTimeMinimum: 0:00:00:00.0000000
+AnimationTimeMaximum: 0:00:00:03.9580000
+~SourceHashes:
+    9a3f4514d5049db95db3f9a6820008f2~../../Resources/model/BG/scene/obj01.FBX: 9207feb70ceb80973a90773b634d213e
