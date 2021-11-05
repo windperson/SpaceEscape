@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+    <ApplicationIcon>Resources\Icon.ico</ApplicationIcon>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SpaceEscape</RootNamespace>
+	  <StrideGraphicsApi>Vulkan</StrideGraphicsApi>
+
+    <OutputPath>..\Bin\Linux\$(Configuration)\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+
+    <!-- Force msbuild to check to rebuild this assembly instead of letting VS IDE guess -->
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SpaceEscape.Game\SpaceEscape.Game.csproj" />
+    <!-- Needed for custom runtime.json -->
+    <PackageReference Include="Stride" Version="4.0.1.1428" PrivateAssets="contentfiles;analyzers" />
+  </ItemGroup>
+
+</Project>

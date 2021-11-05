@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceEscape.Game", "SpaceEscape.Game\SpaceEscape.Game.csproj", "{AC59EF56-D300-4ED3-A8EF-8912E796B2EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceEscape.Game", "SpaceEscape.Game\SpaceEscape.Game.csproj", "{AC59EF56-D300-4ED3-A8EF-8912E796B2EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpaceEscape.Windows", "SpaceEscape.Windows\SpaceEscape.Windows.csproj", "{93B275EB-1641-4572-BDA9-D70FC201AFF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceEscape.Windows", "SpaceEscape.Windows\SpaceEscape.Windows.csproj", "{93B275EB-1641-4572-BDA9-D70FC201AFF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceEscape.Linux", "SpaceEscape.Linux\SpaceEscape.Linux.csproj", "{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game", "Game", "{6F225290-6CAA-4D79-85A4-2DA2F9AAD159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AC59EF56-D300-4ED3-A8EF-8912E796B2EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,26 @@ Global
 		{93B275EB-1641-4572-BDA9-D70FC201AFF9}.Release|x64.Build.0 = Release|Any CPU
 		{93B275EB-1641-4572-BDA9-D70FC201AFF9}.Release|x86.ActiveCfg = Release|Any CPU
 		{93B275EB-1641-4572-BDA9-D70FC201AFF9}.Release|x86.Build.0 = Release|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Debug|x64.Build.0 = Debug|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Debug|x86.Build.0 = Debug|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Release|x64.ActiveCfg = Release|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Release|x64.Build.0 = Release|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Release|x86.ActiveCfg = Release|Any CPU
+		{7ABE221A-AC79-4D2B-ABF5-9475B31D1983}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC59EF56-D300-4ED3-A8EF-8912E796B2EE} = {6F225290-6CAA-4D79-85A4-2DA2F9AAD159}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DB15274-C7A1-4E50-80D4-C709B7A3A665}
 	EndGlobalSection
 EndGlobal
